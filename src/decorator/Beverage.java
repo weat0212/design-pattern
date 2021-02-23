@@ -6,6 +6,8 @@ package decorator;
  */
 public abstract class Beverage {
 
+    private String size;
+
     String description = "Unknown Beverage";
 
     public String getDescription() {
@@ -13,4 +15,12 @@ public abstract class Beverage {
     }
 
     public abstract double cost();
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
 }
