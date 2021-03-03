@@ -1,4 +1,4 @@
-package simplefactory;
+package factory.simplefactory;
 
 /**
  * @author I-Chung, Wang

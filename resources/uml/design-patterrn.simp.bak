@@ -31,11 +31,11 @@
     <entity-ids>
       <counter>
         <item-type type-id="group" type="Group" />
-        <value>1684</value>
+        <value>1807</value>
       </counter>
       <counter>
         <item-type type-id="class" type="Class" />
-        <value>47</value>
+        <value>51</value>
       </counter>
       <counter>
         <item-type type-id="property" type="Property" />
@@ -43,7 +43,7 @@
       </counter>
       <counter>
         <item-type type-id="generalization" type="Generalization" />
-        <value>27</value>
+        <value>29</value>
       </counter>
       <counter>
         <item-type type-id="uml-interface-classifier" type="Interface" />
@@ -55,7 +55,7 @@
       </counter>
       <counter>
         <item-type type-id="universal-connector" type="Universal Connector" />
-        <value>11</value>
+        <value>31</value>
       </counter>
       <counter>
         <item-type type-id="relationship" type="Association" />
@@ -83,7 +83,7 @@
       </counter>
       <counter>
         <item-type type-id="comment" type="Comment" />
-        <value>6</value>
+        <value>7</value>
       </counter>
       <counter>
         <item-type type-id="comment-connector" type="Comment Connector" />
@@ -93,7 +93,7 @@
     <diagrams>
       <counter>
         <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
-        <value>5</value>
+        <value>6</value>
       </counter>
       <counter>
         <type>SoftwareIdeasModeler.Core.Diagrams.Other.RequirementDiagram</type>
@@ -103,7 +103,7 @@
     <fields>
       <counter>
         <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
-        <value>55</value>
+        <value>57</value>
       </counter>
     </fields>
   </counters>
@@ -1645,7 +1645,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="uml-class" id="pdc47c6aa0a004292857f49ebb5f348f0_654652407" name="simple-factory" order-index="5" overview-order-index="3" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="0,-228">
+      <diagram type="uml-class" id="pdc47c6aa0a004292857f49ebb5f348f0_654652407" name="simple-factory" order-index="5" overview-order-index="3" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-228">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -1795,6 +1795,126 @@
               </points>
             </layout>
             <relation from="di45b67a2df02240e9beb990f4c33e8c0b2754" from-iid="9fa4dcba06724bee83fadac67771493b" to="4a0077bdf71548048acba55716f8beb0" to-iid="8dc3b290a9aa443a8e456cc8484e9cba" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p0804db288d604cb6a4df2ae52e8c2fe3_130224358" name="franchise" order-index="6" overview-order-index="4" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>03/03/2021 15:30:48</creation-date>
+          <change-date>03/03/2021 15:41:33</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="dia348ec91848d49b3b27e7c5b6d2dd70c4812" cid="C047" type="class" name="PizzaStore" style-class="" change-tracking-state="added" creation-date="03/03/2021 14:18:48" visibility="undefined">
+            <operations>
+              <operation id="oc6ef01a9ef3c470a825bd48e91fb863c853" cid="ELEM051" name="createPizza" creation-date="03/03/2021 14:19:26" type="" type-id="" visibility="undefined" />
+              <operation id="o4932aeca886d4547b985dd5f2be2587b853" cid="ELEM052" name="orderPizza" creation-date="03/03/2021 14:19:26" type="" type-id="" visibility="undefined" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di9ffe1c6f5f19420fb644c39b7e5d70302414" cid="C048" type="class" name="NYStylePizzaStore" style-class="" change-tracking-state="added" creation-date="03/03/2021 14:19:58" visibility="undefined">
+            <operations>
+              <operation id="ocb24fd7e0ee04325801d62e0ce9a79cd150" cid="ELEM055" name="createPizza" creation-date="03/03/2021 15:34:35" type="" type-id="" visibility="undefined" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di5ac02684ec5a4ebb9d692a4efa2b6bcb2414" cid="GNR027" type="generalization" name="" style-class="" change-tracking-state="added" creation-date="03/03/2021 14:20:11" from="di9ffe1c6f5f19420fb644c39b7e5d70302414" to="dia348ec91848d49b3b27e7c5b6d2dd70c4812" visibility="package" />
+          <item id="didae7e0bd7f544d2c992843f2c761276e2414" cid="C049" type="class" name="ChicagoStylePizzaStore" style-class="" change-tracking-state="added" creation-date="03/03/2021 14:19:58" visibility="undefined">
+            <operations>
+              <operation id="o108e6bce651b4a90a214e80a5f4de962396" cid="ELEM056" name="createPizza" creation-date="03/03/2021 15:34:42" type="" type-id="" visibility="undefined" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di90bcf8ed08a740e5a6bfb932d1f1cbf32414" cid="GNR028" type="generalization" name="" style-class="" change-tracking-state="added" creation-date="03/03/2021 14:20:11" from="didae7e0bd7f544d2c992843f2c761276e2414" to="dia348ec91848d49b3b27e7c5b6d2dd70c4812" visibility="package" />
+          <item id="di355e80507f754b60bec1b4b5b047bdd67334" cid="C050" type="class" name="PizzaStore" style-class="" change-tracking-state="added" creation-date="03/03/2021 14:18:48" visibility="undefined">
+            <operations>
+              <operation id="oc6ef01a9ef3c470a825bd48e91fb863c853" cid="ELEM051" name="createPizza" creation-date="03/03/2021 14:19:26" type="" type-id="" visibility="undefined" abstract="true">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o4932aeca886d4547b985dd5f2be2587b853" cid="ELEM052" name="orderPizza" creation-date="03/03/2021 14:19:26" type="" type-id="" visibility="undefined" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="4bc5713e31ea401ab6e503147657e967" cid="CMT006" type="comment" name="" style-class="" change-tracking-state="added" creation-date="03/03/2021 15:39:55">
+            <comment>pizza = createPizza();
+pizza.prepare();
+pizza.bake();
+pizza.cut();
+pizza.box();</comment>
+          </item>
+          <item id="e3133af7a30547af9525d68a72788c34" cid="ELEM028" type="universal-connector" name="" style-class="" change-tracking-state="added" creation-date="03/03/2021 15:40:39" from="4bc5713e31ea401ab6e503147657e967" to="di355e80507f754b60bec1b4b5b047bdd67334">
+            <connector />
+          </item>
+          <item id="7d4bb9d1775f47dd9a85716b0a95e5fa" cid="ELEM030" type="universal-connector" name="" style-class="" change-tracking-state="added" creation-date="03/03/2021 15:41:31" from="4bc5713e31ea401ab6e503147657e967" to="4bc5713e31ea401ab6e503147657e967">
+            <connector />
+          </item>
+        </abstract-items>
+        <layer id="534ed06153ec4f01a6f75d941962573b" name="Default" visible="true" enabled="true" locked="false">
+          <item id="dia348ec91848d49b3b27e7c5b6d2dd70c4812" iid="36e2502a3bb64af094fa6d1a84083532" creation-date="03/03/2021 14:18:48" order-index="2" type="entity">
+            <layout ax="662" ay="164.5" awidth="140" aheight="82" x="662" y="164.5" width="140" height="82" rotation-center="0,39" />
+            <class />
+          </item>
+          <item id="di9ffe1c6f5f19420fb644c39b7e5d70302414" iid="07180841476449cca080b0e1e1f815ab" creation-date="03/03/2021 14:19:58" order-index="4" type="entity">
+            <layout ax="577.5" ay="300" awidth="140" aheight="82" x="577.5" y="300" width="140" height="82" rotation-center="0,45" />
+            <class />
+          </item>
+          <item id="di5ac02684ec5a4ebb9d692a4efa2b6bcb2414" iid="ef20180f335946cdae0f4db68f2dcb6f" creation-date="03/03/2021 14:20:11" order-index="5" type="relation">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="684" y1="300" x2="732" y2="246" start-border-pos="0.190629686628069" end-border-pos="0.625" end-local-pos="70" name-position="0,20">
+              <points>
+                <point x="684" y="300" />
+                <point x="732" y="246" />
+              </points>
+            </layout>
+            <relation from="di9ffe1c6f5f19420fb644c39b7e5d70302414" from-iid="07180841476449cca080b0e1e1f815ab" to="dia348ec91848d49b3b27e7c5b6d2dd70c4812" to-iid="36e2502a3bb64af094fa6d1a84083532" />
+          </item>
+          <item id="didae7e0bd7f544d2c992843f2c761276e2414" iid="f92843d6e0484899ab6fc6196b84f24b" creation-date="03/03/2021 14:19:58" order-index="4" type="entity">
+            <layout ax="746.5" ay="300" awidth="140" aheight="82" x="746.5" y="300" width="140" height="82" rotation-center="0,45" />
+            <class />
+          </item>
+          <item id="di90bcf8ed08a740e5a6bfb932d1f1cbf32414" iid="d2f7bf9d40b24c2e86048f0db90ba66c" creation-date="03/03/2021 14:20:11" order-index="5" type="relation">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="780" y1="300" x2="732" y2="246" start-border-pos="0.0593703133719308" end-border-pos="0.625" end-local-pos="70" name-position="0,20">
+              <points>
+                <point x="780" y="300" />
+                <point x="732" y="246" />
+              </points>
+            </layout>
+            <relation from="didae7e0bd7f544d2c992843f2c761276e2414" from-iid="f92843d6e0484899ab6fc6196b84f24b" to="dia348ec91848d49b3b27e7c5b6d2dd70c4812" to-iid="36e2502a3bb64af094fa6d1a84083532" />
+          </item>
+          <item id="di355e80507f754b60bec1b4b5b047bdd67334" iid="21b16e34fb0d4b879a92da4eb5d0691f" creation-date="03/03/2021 14:18:48" order-index="2" type="entity">
+            <layout ax="662" ay="164.5" awidth="140" aheight="82" x="662" y="164.5" width="140" height="82" rotation-center="0,39" />
+            <class />
+          </item>
+          <item id="4bc5713e31ea401ab6e503147657e967" iid="aa60bc82532848589511fb2b0627a976" creation-date="03/03/2021 15:39:55" order-index="6" type="entity">
+            <layout ax="868.5" ay="160" awidth="140" aheight="93" x="868.5" y="160" width="140" height="100" />
+          </item>
+          <item id="e3133af7a30547af9525d68a72788c34" iid="19a76a4bb27541e3b86e03d60a78de67" creation-date="03/03/2021 15:40:39" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="868" y1="206" x2="802" y2="206" start-border-pos="0.875" end-border-pos="0.376524390243902" name-position="0,20">
+              <points>
+                <point x="868" y="206" />
+                <point x="802" y="206" />
+              </points>
+            </layout>
+            <relation from="4bc5713e31ea401ab6e503147657e967" from-iid="aa60bc82532848589511fb2b0627a976" to="di355e80507f754b60bec1b4b5b047bdd67334" to-iid="21b16e34fb0d4b879a92da4eb5d0691f" />
           </item>
         </layer>
       </diagram>
