@@ -6,13 +6,11 @@ package factory.franchise;
  */
 public class PizzaOrdering {
     public static void main(String[] args) {
-        PizzaStore pizzaStore = new NYStylePizzaStore();
-        pizzaStore.orderPizza("cheese");
+        PizzaStore nyStore = new NYStylePizzaStore();
+        nyStore.orderPizza("cheese");
 
-        PizzaStore pizzaStore2 = new NYStylePizzaStore();
-        pizzaStore.orderPizza("clam");
+        PizzaStore chicagoStore = new ChicagoStylePizzaStore();
+        chicagoStore.orderPizza("cheese");
 
-        PizzaStore pizzaStore3 = new NYStylePizzaStore();
-        pizzaStore.orderPizza("veggie");
     }
 }

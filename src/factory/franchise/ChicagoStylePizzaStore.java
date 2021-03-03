@@ -1,12 +1,10 @@
 package factory.franchise;
 
-
 /**
  * @author I-Chung, Wang
- * @date 2021/3/3 下午 03:47
+ * @date 2021/3/3 下午 04:57
  */
-public class NYStylePizzaStore extends PizzaStore {
-
+public class ChicagoStylePizzaStore extends PizzaStore {
     @Override
     protected Pizza createPizza(String type) {
 
@@ -14,13 +12,13 @@ public class NYStylePizzaStore extends PizzaStore {
 
         switch (type) {
             case "cheese":
-                pizza = new NYStyleCheesePizza();
+                pizza = new ChicagoStyleCheesePizza();
                 break;
             case "clam":
-                pizza = new NYStyleClamPizza();
+                pizza = new ChicagoStyleClamPizza();
                 break;
             case "veggie":
-                pizza = new NYStyleVeggiePizza();
+                pizza = new ChicagoStyleVeggiePizza();
                 break;
             default:
                 pizza = null;

@@ -1,6 +1,5 @@
 package factory.franchise;
 
-import factory.simplefactory.Pizza;
 
 /**
  * @author I-Chung, Wang

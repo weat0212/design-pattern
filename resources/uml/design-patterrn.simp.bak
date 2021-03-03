@@ -31,7 +31,7 @@
     <entity-ids>
       <counter>
         <item-type type-id="group" type="Group" />
-        <value>1807</value>
+        <value>1809</value>
       </counter>
       <counter>
         <item-type type-id="class" type="Class" />
