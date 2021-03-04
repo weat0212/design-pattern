@@ -39,7 +39,7 @@
     <entity-ids>
       <counter>
         <item-type type-id="group" type="Group" />
-        <value>1972</value>
+        <value>2021</value>
       </counter>
       <counter>
         <item-type type-id="class" type="Class" />
@@ -67,7 +67,7 @@
       </counter>
       <counter>
         <item-type type-id="relationship" type="Association" />
-        <value>16</value>
+        <value>17</value>
       </counter>
       <counter>
         <item-type type-id="realization" type="Realization" />
@@ -1818,7 +1818,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="uml-class" id="p0804db288d604cb6a4df2ae52e8c2fe3_130224358" name="factory-method" order-index="6" overview-order-index="4" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="496,-56" zoom="1.2">
+      <diagram type="uml-class" id="p0804db288d604cb6a4df2ae52e8c2fe3_130224358" name="factory-method" order-index="6" overview-order-index="4" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="541,-81" zoom="1.2">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -1830,7 +1830,7 @@
           </authors>
           <description />
           <creation-date>03/03/2021 15:30:48</creation-date>
-          <change-date>03/04/2021 15:20:55</change-date>
+          <change-date>03/04/2021 15:21:31</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
@@ -1999,6 +1999,12 @@ pizza.box();</comment>
               <end-role id="umlar-a3784e6c-3d6f-4702-bd15-6da5c5072a18" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
+          <item id="di711f7bd634cc4fbc89ea65f2cf530ea61865" cid="REL016" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="03/04/2021 15:20:53" from="didae7e0bd7f544d2c992843f2c761276e2414" to="dia8473237fb974b8f9dc3b2760067d1478542" visibility="package">
+            <relation from="didae7e0bd7f544d2c992843f2c761276e2414" to="dia8473237fb974b8f9dc3b2760067d1478542" derived="false">
+              <start-role id="umlar-e09e67dd-ef77-4bf6-8dff-06f5be166f34" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-a3784e6c-3d6f-4702-bd15-6da5c5072a18" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
         </abstract-items>
         <layer id="534ed06153ec4f01a6f75d941962573b" name="Default" visible="true" enabled="true" locked="false">
           <item id="dia348ec91848d49b3b27e7c5b6d2dd70c4812" iid="36e2502a3bb64af094fa6d1a84083532" creation-date="03/03/2021 14:18:48" order-index="2" type="entity">
@@ -2100,13 +2106,24 @@ pizza.box();</comment>
             <class />
           </item>
           <item id="dc857392339d4b6d9b71b0ebaeb3c185" iid="a72e45939a404252951b4efd4f836898" creation-date="03/04/2021 15:20:53" order-index="9" type="relation">
-            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="smooth" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="648" y1="382" x2="1020" y2="351" start-border-pos="0.624107144773006" end-border-pos="0.844512195121951" start-local-pos="70.5" end-local-pos="41" name-position="0,20">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="curve" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="648" y1="382" x2="1020" y2="341" start-border-pos="0.624107144773006" end-border-pos="0.875" start-local-pos="70.5" end-local-pos="41" name-position="0,20">
               <points>
                 <point x="648" y="382" />
-                <point x="1020" y="351" />
+                <point x="838" y="422" />
+                <point x="1020" y="341" />
               </points>
             </layout>
             <relation from="di9ffe1c6f5f19420fb644c39b7e5d70302414" from-iid="07180841476449cca080b0e1e1f815ab" to="di9cd14acd4ef7469e8c646599a07ad6218542" to-iid="4ba5ec4b175c4c02a06bcfd87327cae9" />
+          </item>
+          <item id="di711f7bd634cc4fbc89ea65f2cf530ea61865" iid="cb828e1f687c4d66848d5f238364000e" creation-date="03/04/2021 15:20:53" order-index="9" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="curve" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="886" y1="341" x2="1228" y2="341" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="41" end-local-pos="41" name-position="0,20">
+              <points>
+                <point x="886" y="341" />
+                <point x="1111" y="283" />
+                <point x="1228" y="341" />
+              </points>
+            </layout>
+            <relation from="didae7e0bd7f544d2c992843f2c761276e2414" from-iid="f92843d6e0484899ab6fc6196b84f24b" to="dia8473237fb974b8f9dc3b2760067d1478542" to-iid="40f374a3ff9a4399909a2c377458f858" />
           </item>
         </layer>
       </diagram>

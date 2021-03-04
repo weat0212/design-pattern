@@ -11,3 +11,7 @@
 ## Decorator Pattern
 
 ![GITHUB](https://github.com/weat0212/design-pattern/blob/main/resources/images/Decorator-pattern.png)
+
+## Factory Method Pattern
+
+![GITHUB](https://github.com/weat0212/design-pattern/blob/main/resources/images/Factory-method.png)
