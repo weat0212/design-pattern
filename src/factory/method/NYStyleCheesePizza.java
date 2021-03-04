@@ -1,4 +1,4 @@
-package factory.franchise;
+package factory.method;
 
 /**
  * @author I-Chung, Wang

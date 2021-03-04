@@ -1,4 +1,4 @@
-package factory.franchise;
+package factory.method;
 
 /**
  * @author I-Chung, Wang
@@ -8,6 +8,8 @@ public class PizzaOrdering {
     public static void main(String[] args) {
         PizzaStore nyStore = new NYStylePizzaStore();
         nyStore.orderPizza("cheese");
+
+        System.out.println("\n");
 
         PizzaStore chicagoStore = new ChicagoStylePizzaStore();
         chicagoStore.orderPizza("cheese");

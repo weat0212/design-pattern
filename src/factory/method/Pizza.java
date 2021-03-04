@@ -1,4 +1,4 @@
-package factory.franchise;
+package factory.method;
 
 import java.util.ArrayList;
 import java.util.List;
