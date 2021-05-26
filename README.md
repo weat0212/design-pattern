@@ -19,3 +19,7 @@
 ## Factory Pattern
 
 ![GITHUB](https://github.com/weat0212/design-pattern/blob/main/resources/images/Factory.png)
+
+## Singleton Pattern
+
+![GITHUB](https://github.com/weat0212/design-pattern/blob/main/resources/images/Singleton.png)
