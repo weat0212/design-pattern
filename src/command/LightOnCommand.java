@@ -17,4 +17,9 @@ public class LightOnCommand implements Command {
         // Receiver call on() method
         light.on();
     }
+
+    @Override
+    public void undo() {
+        light.off();
+    }
 }
