@@ -2,20 +2,21 @@ package command;
 
 /**
  * @author I-Chung, Wang
- * @date 2021/6/10 下午 04:39
+ * @date 2021/6/10 下午 04:37
  */
-public class CeilingFanOffCommand implements Command {
+public class CeilingFanMediumCommand implements Command {
 
     CeilingFan ceilingFan;
     int prevSpeed;
 
-    public CeilingFanOffCommand(CeilingFan ceilingFan) {
+    public CeilingFanMediumCommand(CeilingFan ceilingFan) {
         this.ceilingFan = ceilingFan;
     }
 
     @Override
     public void execute() {
-        ceilingFan.off();
+        prevSpeed = ceilingFan.getSpeed();
+        ceilingFan.medium();
     }
 
     @Override
