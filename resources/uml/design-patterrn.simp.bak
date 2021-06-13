@@ -9,11 +9,11 @@
     <entity-names>
       <counter>
         <item-type type-id="class" type="Class" />
-        <value>24</value>
+        <value>25</value>
       </counter>
       <counter>
         <item-type stereotype="interface" type-id="uml-interface-classifier" type="Interface" />
-        <value>8</value>
+        <value>9</value>
       </counter>
       <counter>
         <item-type type-id="frame" type="Frame" />
@@ -25,7 +25,7 @@
       </counter>
       <counter>
         <item-type type-id="uml-interface-classifier" type="Interface" />
-        <value>12</value>
+        <value>15</value>
       </counter>
       <counter>
         <item-type type-id="element-detail" type="Element Detail" />
@@ -33,7 +33,7 @@
       </counter>
       <counter>
         <item-type type-id="text" type="Text" />
-        <value>3</value>
+        <value>4</value>
       </counter>
       <counter>
         <item-type stereotype="signal" type-id="signal" type="Signal" />
@@ -47,15 +47,15 @@
     <entity-ids>
       <counter>
         <item-type type-id="group" type="Group" />
-        <value>3088</value>
+        <value>3193</value>
       </counter>
       <counter>
         <item-type type-id="class" type="Class" />
-        <value>75</value>
+        <value>79</value>
       </counter>
       <counter>
         <item-type type-id="property" type="Property" />
-        <value>74</value>
+        <value>81</value>
       </counter>
       <counter>
         <item-type type-id="generalization" type="Generalization" />
@@ -63,7 +63,7 @@
       </counter>
       <counter>
         <item-type type-id="uml-interface-classifier" type="Interface" />
-        <value>72</value>
+        <value>80</value>
       </counter>
       <counter>
         <item-type type-id="usage" type="Usage" />
@@ -71,15 +71,15 @@
       </counter>
       <counter>
         <item-type type-id="universal-connector" type="Universal Connector" />
-        <value>74</value>
+        <value>83</value>
       </counter>
       <counter>
         <item-type type-id="relationship" type="Association" />
-        <value>43</value>
+        <value>45</value>
       </counter>
       <counter>
         <item-type type-id="realization" type="Realization" />
-        <value>43</value>
+        <value>46</value>
       </counter>
       <counter>
         <item-type type-id="frame" type="Frame" />
@@ -111,7 +111,7 @@
       </counter>
       <counter>
         <item-type type-id="text" type="Text" />
-        <value>68</value>
+        <value>82</value>
       </counter>
       <counter>
         <item-type type-id="uml-provided-interface-connector" type="Provided Interface Connector" />
@@ -133,7 +133,7 @@
     <diagrams>
       <counter>
         <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
-        <value>10</value>
+        <value>11</value>
       </counter>
       <counter>
         <type>SoftwareIdeasModeler.Core.Diagrams.Other.RequirementDiagram</type>
@@ -143,7 +143,7 @@
     <fields>
       <counter>
         <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
-        <value>73</value>
+        <value>85</value>
       </counter>
     </fields>
   </counters>
@@ -191,6 +191,8 @@
       <type id="Command[]" tid="" name="Command[]" description="" />
       <type id="i" tid="" name="i" description="" />
       <type id="in" tid="" name="in" description="" />
+      <type id="int" tid="" name="int" description="" />
+      <type id="Class:di824031d7311544bbb766d02f11ae94941859" tid="" name="Turkey" description="" class-ref="di824031d7311544bbb766d02f11ae94941859" />
     </custom-types>
   </types>
   <items>
@@ -426,14 +428,10 @@
       </style>
       <feature />
       <structural-feature type="Command" type-id="Class:f787ab1b7b804eb9b6ce1b38b95f0095" />
-      <property>
-        <source-codes>
-          <source-code language="ActionScript" uid="scs-dde7f078-bf4d-43f9-a586-93458bd6a098" />
-        </source-codes>
-      </property>
+      <property />
     </item>
     <item id="b6ea01df3a634800835b777bdccc8d3b" cid="ELEM073" type="property" name="offCommand" style-class="" owner="dib190adccdf724459bb6ae6ab71ad35815896" creation-date="06/10/2021 16:54:15" visibility="undefined">
-      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
         <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
         <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
         <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
@@ -461,6 +459,33 @@
     </item>
     <item id="d93c3b496d364a7fbfe6f454a319a678" cid="GROUP2974" type="group" name="Group" style-class="" creation-date="06/10/2021 16:57:42" />
     <item id="fb4625b8bc06484e978eea2848e2dc72" cid="GROUP2978" type="group" name="Group" style-class="" creation-date="06/10/2021 16:57:45" />
+    <item id="25864f47e3394a30a79f3339ea535341" cid="ELEM078" type="property" name="turkey" style-class="" owner="8b3cc0b6d8a34992b10e42c5ae64832a" creation-date="06/13/2021 15:14:45" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+        <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+        <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <background type="solid" colors="#FFF2F2F2,#FFF2F2F2" />
+        <border color="#FF555555" width="2" dash-style="Solid" />
+        <label-connector color="#80000000" width="1" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+            <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+            <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <background type="solid" colors="#FF203D85,#FF203D85" />
+            <border color="#FF203D85" width="2" dash-style="Solid" />
+            <label-connector color="#80000000" width="1" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <feature />
+      <structural-feature type="Turkey" type-id="Class:di824031d7311544bbb766d02f11ae94941859" />
+      <property />
+    </item>
   </items>
   <models>
     <model id="p6acb861f537d4f788e15f002d0b04f9f_151890474" name="Model1" namespace="" order-index="1">
@@ -495,6 +520,8 @@
         <abstract-items>
           <item id="bbc9edf02a66428eaac209388b346656" cid="C001" type="class" name="Duck" style-class="" change-tracking-state="added" creator="" creation-date="01/29/2021 13:54:36" visibility="undefined">
             <owned-items>
+              <owned-item ref="80df860f0eec47d490682b1ab5aa8bf8" />
+              <owned-item ref="8c2ffbe0ad1c45539b1de1176b43da7d" />
               <owned-item ref="80df860f0eec47d490682b1ab5aa8bf8" />
               <owned-item ref="8c2ffbe0ad1c45539b1de1176b43da7d" />
               <owned-item ref="80df860f0eec47d490682b1ab5aa8bf8" />
@@ -595,8 +622,8 @@
               <stereotype id="8eb86530436a469a9890d69071adbcfd_use_c" type="use" ref="" />
             </stereotype-instances>
             <relation from="bbc9edf02a66428eaac209388b346656" to="c0fe56e093dc48cd9ec8764cb6d35557" derived="false">
-              <start-role id="umlar-a4a5dc33-da00-490a-88ca-de1d032bcf18" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-ff030109-5038-4e59-8768-2b472de27470" name="" navigability="" association-type="association" visibility="private" />
+              <start-role id="umlar-6ee66328-79b5-4445-abce-9e6c57f70465" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-9fe3cc0e-72f5-4f32-a41f-be901d95b62c" name="" navigability="" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="082da3bc4f1e4b51a42f3244350e21ec" cid="C005" type="class" name="Quack" style-class="" change-tracking-state="added" creator="" creation-date="01/29/2021 15:07:02" visibility="undefined">
@@ -616,8 +643,8 @@
               <stereotype id="3e37cee072f34f5583f8c1ab62f18efb_use_c" type="use" ref="" />
             </stereotype-instances>
             <relation from="bbc9edf02a66428eaac209388b346656" to="di981292f9efb04681a2520da8011debaf2388" derived="false">
-              <start-role id="umlar-95d8342b-6725-44c2-937a-93abe446109c" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-35341bc0-c938-471f-8506-62155fa9ad67" name="" navigability="" association-type="association" visibility="private" />
+              <start-role id="umlar-ec3f6af1-3864-4419-b14c-f8f46b3925e5" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-62072e27-e2c8-4e4d-b38d-3d3742461d6e" name="" navigability="" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="di9ac9cfc6d6374ddb910093cc4a50b9f46440" cid="C006" type="class" name="Fly with Wings" style-class="" change-tracking-state="added" creator="" creation-date="01/29/2021 15:07:02" visibility="undefined">
@@ -671,14 +698,14 @@
           <item id="5a9c14dcdfda4af897a767bbf0ba2fc0" cid="PKG001" type="package" name="Package1" style-class="" change-tracking-state="added" creator="" creation-date="01/29/2021 15:31:45" visibility="undefined" />
           <item id="c2c8a3c9753a477e8cbc31c843fd794a" cid="REL003" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="01/29/2021 15:32:03" from="di981292f9efb04681a2520da8011debaf2388" to="bbc9edf02a66428eaac209388b346656" visibility="package">
             <relation from="di981292f9efb04681a2520da8011debaf2388" to="bbc9edf02a66428eaac209388b346656" derived="false">
-              <start-role id="umlar-67056c8b-a5fe-4115-bb9d-1019ef0c95d0" name="" navigability="yes" association-type="association" visibility="private" />
-              <end-role id="umlar-5846acb5-81c3-4588-9625-fdf3da98a396" name="" navigability="" association-type="association" visibility="private" />
+              <start-role id="umlar-027a96b3-97cb-455f-aae3-34c834574fd3" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="umlar-3c7e1195-67a2-44b1-b630-83c643edf866" name="" navigability="" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="0ef917e4d32c4dbeb081702f7ce329fa" cid="REL004" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="01/29/2021 15:32:06" from="c0fe56e093dc48cd9ec8764cb6d35557" to="bbc9edf02a66428eaac209388b346656" visibility="package">
             <relation from="c0fe56e093dc48cd9ec8764cb6d35557" to="bbc9edf02a66428eaac209388b346656" derived="false">
-              <start-role id="umlar-8a91c896-7175-4604-a18d-2b5111c25d8e" name="" navigability="yes" association-type="association" visibility="private" />
-              <end-role id="umlar-ea611e43-a2e7-4322-8103-2dd11e6f7a36" name="" navigability="" association-type="association" visibility="private" />
+              <start-role id="umlar-dbad6fab-308d-4d4e-aee5-29affff10882" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="umlar-3f0405a1-2e46-4522-bfb8-928b83d54be5" name="" navigability="" association-type="association" visibility="private" />
             </relation>
           </item>
         </abstract-items>
@@ -854,6 +881,7 @@
               <owned-item ref="19219b61ae9a4999865dacb40587e2af" />
               <owned-item ref="19219b61ae9a4999865dacb40587e2af" />
               <owned-item ref="19219b61ae9a4999865dacb40587e2af" />
+              <owned-item ref="19219b61ae9a4999865dacb40587e2af" />
             </owned-items>
             <attributes>
               <attribute id="a53bc0bc98af04de9adc13328f6908abc898" cid="ELEM012" name="weapon" creation-date="01/29/2021 15:54:25" property-ref="19219b61ae9a4999865dacb40587e2af" />
@@ -968,8 +996,8 @@
           </item>
           <item id="fe4e78c38d26432aa48df319253c941b" cid="REL005" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="01/30/2021 11:07:45" from="42ef46551252407b9646be71431e4abd" to="492ea4b491d841c9916dbf48075ef7ba" visibility="package">
             <relation from="42ef46551252407b9646be71431e4abd" to="492ea4b491d841c9916dbf48075ef7ba" derived="false">
-              <start-role id="umlar-fe96855c-234a-4851-89d6-3641b7be059d" name="" navigability="yes" association-type="association" visibility="private" />
-              <end-role id="umlar-eee82ee3-2773-41c6-8494-467e074eceaf" name="" navigability="" association-type="association" visibility="private" />
+              <start-role id="umlar-942e309b-653a-423e-8a64-c5b81b2c3130" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="umlar-f3bbbd83-3d49-4b32-909d-e99e25bd7ed6" name="" navigability="" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="60b30d632be946c1ae6436bbf88f3773" cid="GNR009" type="generalization" name="" style-class="" change-tracking-state="added" creation-date="01/30/2021 11:09:15" from="c165e1fb55904c038dbabb73d48db607" to="492ea4b491d841c9916dbf48075ef7ba" visibility="package" />
@@ -1162,8 +1190,8 @@
           <item id="98d8a97de18e4440bb17337b58362ecf" cid="C023" type="class" name="Class9" style-class="" change-tracking-state="added" creation-date="02/01/2021 12:53:56" visibility="undefined" />
           <item id="1c4d3cd17c1e4ed6acf495e21a65defd" cid="REL006" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="02/01/2021 12:53:56" from="1a0d2308f5354590b5188bec5a995533" to="98d8a97de18e4440bb17337b58362ecf" visibility="package">
             <relation from="1a0d2308f5354590b5188bec5a995533" to="98d8a97de18e4440bb17337b58362ecf" derived="false">
-              <start-role id="umlar-da9d7bc8-6eb3-43bb-b08b-e2dc23ed3e58" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-927d0096-4543-4ba2-945e-84e1b5324ab9" name="" navigability="" association-type="association" visibility="private" />
+              <start-role id="umlar-95afce56-ac87-49e0-a77b-2f960228d57c" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-73433dd7-009e-4108-8c03-ff420670f7d9" name="" navigability="" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="4d29198060e54ef4a15657723edb9bdf" cid="ELEM015" type="class" name="WeatherData" style-class="" change-tracking-state="added" creation-date="02/01/2021 12:54:17" visibility="undefined">
@@ -1181,8 +1209,8 @@
           <item id="72d81d51843b453aa1e0e04729577956" cid="REA012" type="realization" name="" style-class="" change-tracking-state="added" creation-date="02/01/2021 12:54:17" from="4d29198060e54ef4a15657723edb9bdf" to="1a0d2308f5354590b5188bec5a995533" visibility="package" />
           <item id="d9eaed6a8e804919b81f53b852796940" cid="REL007" type="relationship" name="觀察者" style-class="" change-tracking-state="added" creation-date="02/01/2021 12:57:02" from="f438e39fadb74eecac0da368e88b3a5a" to="1a0d2308f5354590b5188bec5a995533" visibility="package">
             <relation from="f438e39fadb74eecac0da368e88b3a5a" to="1a0d2308f5354590b5188bec5a995533" derived="false">
-              <start-role id="umlar-706fc015-9ad6-4a74-93eb-f8f1ce9b397a" name="" navigability="yes" association-type="association" visibility="private" />
-              <end-role id="umlar-69bb65f0-435d-48d6-a6c1-d6cf8c86ea03" name="" navigability="" association-type="association" visibility="private" />
+              <start-role id="umlar-4e501036-2572-4e40-b12b-398d3ee1d8b3" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="umlar-ff908fe0-34a2-4918-afe4-b1787282463d" name="" navigability="" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="d3bc34a782f54ae58d332585baa9ef41" cid="C025" type="class" name="CurrentConditionsDisplay" style-class="" change-tracking-state="added" creation-date="02/01/2021 13:11:51" visibility="undefined">
@@ -1199,8 +1227,8 @@
           </item>
           <item id="0e86744f2cb04b909a72f3a608e2242e" cid="REL008" type="relationship" name="主題" style-class="" change-tracking-state="added" creation-date="02/01/2021 13:13:14" from="1a0d2308f5354590b5188bec5a995533" to="d3bc34a782f54ae58d332585baa9ef41" visibility="package">
             <relation from="1a0d2308f5354590b5188bec5a995533" to="d3bc34a782f54ae58d332585baa9ef41" derived="false">
-              <start-role id="umlar-ee210997-693a-4a1d-95a7-dddc29e30ff1" name="" navigability="yes" association-type="association" visibility="private" />
-              <end-role id="umlar-0737a11f-35f1-4d09-b3e6-d1d8b6a781b0" name="" navigability="" association-type="association" visibility="private" />
+              <start-role id="umlar-f4295c8b-4e41-46d4-a0d4-65f8c6a322db" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="umlar-ed0cb054-9ef8-417c-97b4-2b79f82446a5" name="" navigability="" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="b6189246789b45e1b7eaf61da4c4d3e6" cid="REA014" type="realization" name="" style-class="" change-tracking-state="added" creation-date="02/01/2021 13:13:32" from="d3bc34a782f54ae58d332585baa9ef41" to="f438e39fadb74eecac0da368e88b3a5a" visibility="package" />
@@ -1566,12 +1594,13 @@
           <item id="d4b7cf2345fe4bddb0193a67a989301e" cid="GNR019" type="generalization" name="" style-class="" change-tracking-state="added" creation-date="02/02/2021 18:30:04" from="b4902d70bdc04a30b31b0fe42054fbb2" to="fb3118660381412ba6b93343431086d9" visibility="package" />
           <item id="bb67234f8ee74024b135e7bfd42b3de4" cid="REL009" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="02/02/2021 18:30:15" from="fb3118660381412ba6b93343431086d9" to="b4902d70bdc04a30b31b0fe42054fbb2" visibility="package">
             <relation from="fb3118660381412ba6b93343431086d9" to="b4902d70bdc04a30b31b0fe42054fbb2" derived="false">
-              <start-role id="umlar-7d43296f-8025-42a7-a16e-7ef7316d33bc" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-505a7156-e3a5-4a1c-8bd8-959caffac6eb" name="" navigability="" association-type="association" visibility="private" />
+              <start-role id="umlar-304107ff-da32-4e4f-be4c-c6982af5e37f" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-5820b61c-9916-4823-a1a5-37ce6fd9ce60" name="" navigability="" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="dibfacee679248400b90c305a6e2de51ea1230" cid="C036" type="class" name="Milk" style-class="" change-tracking-state="added" creation-date="02/02/2021 18:23:33" visibility="undefined">
             <owned-items>
+              <owned-item ref="13c0b4d8de564264ae9d6b511969c3aa" />
               <owned-item ref="13c0b4d8de564264ae9d6b511969c3aa" />
               <owned-item ref="13c0b4d8de564264ae9d6b511969c3aa" />
               <owned-item ref="13c0b4d8de564264ae9d6b511969c3aa" />
@@ -1724,8 +1753,8 @@
           <item id="8831ba841a1446ccbe60e37e744e6815" cid="GNR023" type="generalization" name="" style-class="" change-tracking-state="added" creation-date="02/02/2021 18:33:49" from="di4977128580a94b0b81cec60cbe5f04bc4579" to="b4902d70bdc04a30b31b0fe42054fbb2" visibility="package" />
           <item id="ee81c3788e2c42779dfa3192f9566552" cid="REL013" type="relationship" name="component" style-class="" change-tracking-state="added" creation-date="03/03/2021 14:17:14" from="b4902d70bdc04a30b31b0fe42054fbb2" to="fb3118660381412ba6b93343431086d9" visibility="package">
             <relation from="b4902d70bdc04a30b31b0fe42054fbb2" to="fb3118660381412ba6b93343431086d9" derived="false">
-              <start-role id="umlar-b38f6123-2339-4923-a94f-9f7a5f270971" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-e3b2568d-9f79-4241-b616-5ebb7a1d7e5c" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-80311011-6f9b-492f-a467-4fd55bcc99be" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-afa5a601-9d2b-4535-813e-b04d32e67d21" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
         </abstract-items>
@@ -1901,14 +1930,14 @@
           </item>
           <item id="c50a549570364f969f567cb5573f88b4" cid="REL010" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="03/03/2021 14:13:53" from="c18f4d5d281949d98c709ff518bbe200" to="di77bd58c917b944f3a2ed11db5f50b2046751" visibility="package">
             <relation from="c18f4d5d281949d98c709ff518bbe200" to="di77bd58c917b944f3a2ed11db5f50b2046751" derived="false">
-              <start-role id="umlar-0e156097-3b7b-4816-a350-7888d4da57ed" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-a1bc37ab-6730-4170-b58f-ce42780c81bb" name="" navigability="" association-type="association" visibility="private" attribute-ref="afa741a7d115c4c7bb9d14b5a61742372976" />
+              <start-role id="umlar-f7c0912e-2846-427b-9070-65ec13e80b25" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-996be3d8-ef01-40c6-977f-8bd375c1ae53" name="" navigability="" association-type="association" visibility="private" attribute-ref="afa741a7d115c4c7bb9d14b5a61742372976" />
             </relation>
           </item>
           <item id="9445a1a8bc244bbfb78ad0c672b3311a" cid="REL011" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="03/03/2021 14:15:52" from="c18f4d5d281949d98c709ff518bbe200" to="di77bd58c917b944f3a2ed11db5f50b2046751" visibility="package">
             <relation from="c18f4d5d281949d98c709ff518bbe200" to="di77bd58c917b944f3a2ed11db5f50b2046751" derived="false">
-              <start-role id="umlar-b770ad43-8c8b-4b88-a1d0-7e3fcfa98ad4" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-421b6322-673b-4378-b141-ae67640e59e0" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-c36ec032-4bb6-4458-915c-8a22086b5854" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-dafb8510-eefa-4ab5-a15a-9d2c318ef437" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="4a0077bdf71548048acba55716f8beb0" cid="C042" type="class" name="Pizza" style-class="" change-tracking-state="added" creation-date="03/03/2021 14:18:48" visibility="undefined">
@@ -1924,8 +1953,8 @@
           </item>
           <item id="167b435e104641ecb9e1974dac6ba133" cid="REL014" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="03/03/2021 14:18:51" from="di77bd58c917b944f3a2ed11db5f50b2046751" to="4a0077bdf71548048acba55716f8beb0" visibility="package">
             <relation from="di77bd58c917b944f3a2ed11db5f50b2046751" to="4a0077bdf71548048acba55716f8beb0" derived="false">
-              <start-role id="umlar-293be027-9434-42f6-b51b-889fe2cbb03c" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-672badd0-94d9-4215-8460-f1ff2d59f744" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-dce98913-db31-46f8-9154-e15483a9f629" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-6e3ada1b-143d-4b18-8b47-dd998c4f5927" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="7fb30766449642feb85e4929097760e2" cid="C043" type="class" name="CheesePizza" style-class="" change-tracking-state="added" creation-date="03/03/2021 14:19:58" visibility="undefined" />
@@ -2192,14 +2221,14 @@ pizza.box();</comment>
           </item>
           <item id="dc857392339d4b6d9b71b0ebaeb3c185" cid="REL015" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="03/04/2021 15:20:53" from="di9ffe1c6f5f19420fb644c39b7e5d70302414" to="di9cd14acd4ef7469e8c646599a07ad6218542" visibility="package">
             <relation from="di9ffe1c6f5f19420fb644c39b7e5d70302414" to="di9cd14acd4ef7469e8c646599a07ad6218542" derived="false">
-              <start-role id="umlar-38913b86-94b1-42fc-9f03-d794dfee0f22" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-62e7ae5e-a573-4706-a3f7-8ded346d9c30" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-a79801d8-a1b2-4ef5-9a15-2f5be0923904" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-d85455ea-8743-448d-8dbc-f531ef527c2c" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="di711f7bd634cc4fbc89ea65f2cf530ea61865" cid="REL016" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="03/04/2021 15:20:53" from="didae7e0bd7f544d2c992843f2c761276e2414" to="dia8473237fb974b8f9dc3b2760067d1478542" visibility="package">
             <relation from="didae7e0bd7f544d2c992843f2c761276e2414" to="dia8473237fb974b8f9dc3b2760067d1478542" derived="false">
-              <start-role id="umlar-8feeba2a-0080-4d63-a569-de66fda46a09" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-d5678d33-e7b2-4d6e-ab30-345839866d1f" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-cd2e2b08-fca6-48c9-84ce-4efe8f0cfa7b" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-2c9b2b31-8ab2-40ad-970d-f21f36ea2aee" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
         </abstract-items>
@@ -2458,86 +2487,86 @@ pizza.box();</comment>
           <item id="diccf239d64a3a468f8896d1ba198ad83b9597" cid="REA037" type="realization" name="" style-class="" change-tracking-state="added" creation-date="05/24/2021 16:30:03" from="di8103fbb8b7e84fa8b9140538d2c2d2529597" to="di5afdeca60ddc41ef85476129bc6013786550" visibility="package" />
           <item id="7a3189461b6740388f58b525cb951d26" cid="REL017" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="05/24/2021 16:35:59" from="09a7c15a1bcd4bf5ba19831678eed17c" to="9882c5cc55554cfbbb87062fceb7d7c2" visibility="package">
             <relation from="09a7c15a1bcd4bf5ba19831678eed17c" to="9882c5cc55554cfbbb87062fceb7d7c2" derived="false">
-              <start-role id="umlar-55e29368-1a6b-478b-8169-a8d93282a75b" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-e8cda953-ea7c-4bb3-a7b0-d325f835c50b" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-c11872b4-b0e4-457e-a3f7-c7ce775a6c15" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-5e478f3e-86d6-46d4-88ec-dcf3eaba8f32" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="2bd0ba3dd75c4b359d7d8da9d1fd8faf" cid="REL019" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="05/24/2021 16:36:34" from="di45ce5b269e88482eb099e267ac9e3f531265" to="c3874df74ebb40ba8ae7c61b9e86ab02" visibility="package">
             <relation from="di45ce5b269e88482eb099e267ac9e3f531265" to="c3874df74ebb40ba8ae7c61b9e86ab02" derived="false">
-              <start-role id="umlar-abcf95fe-7112-440d-80a0-b3a2ddeb9936" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-1a78f8ab-dddb-4cda-928f-f6e38932c818" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-60e65a2e-f931-4ecf-b76a-ec446ff12e2c" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-f3b7d784-9e55-419c-9fc9-6c016f55ab32" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="di5e36035f61d447e1a1c8639d62baaf3c5235" cid="REL020" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="05/24/2021 16:36:34" to="did4a8d3374d1d43d6a4a3a7b4bac94c2a8054" visibility="package">
             <relation from="" to="did4a8d3374d1d43d6a4a3a7b4bac94c2a8054" derived="false">
-              <start-role id="umlar-3d717b8b-6fea-46a0-b323-9b749a7513bf" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-c864f7bf-4c18-4e0f-b16a-fe6f96553af0" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-97f07506-d876-48d5-bb2f-4d8f7f9a96a3" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-9978bdda-2c4d-45aa-b6cc-d44e91a2fbd8" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="di188cba5fb9dc449ca4da82d1deac9d5e4091" cid="REL021" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="05/24/2021 16:36:34" visibility="package">
             <relation from="" to="" derived="false">
-              <start-role id="umlar-f5b5797e-e828-4aa1-9dbf-c8326d1def7f" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-d26b01d5-2370-47d8-94fe-52d8b581e276" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-1d6283f1-1781-46c0-bcc9-546f6d16d3d6" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-489837e8-2cf8-41f2-baf2-ca475e67ce31" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="di76a5bc4bfac040178282d569c043bbce6194" cid="REL022" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="05/24/2021 16:36:34" to="di5c7c13c654f440cda8ae44d4c98a4c377132" visibility="package">
             <relation from="" to="di5c7c13c654f440cda8ae44d4c98a4c377132" derived="false">
-              <start-role id="umlar-ecc9baf0-1391-4bb0-b8c5-14a03e832ae5" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-828a129d-da38-473a-b2d0-3bff1d2c4913" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-f05b5b21-2ce0-48ba-9b68-6871180a6a13" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-24ae740c-5ed5-4ea0-879c-7719b086e1fa" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="dibd14457776b143c4af244598b1730dd16519" cid="REL023" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="05/24/2021 16:36:34" to="didcd3e1efb22545c7a690904d428fa45e9597" visibility="package">
             <relation from="" to="didcd3e1efb22545c7a690904d428fa45e9597" derived="false">
-              <start-role id="umlar-49375b3e-91ce-4d76-99d3-f054b75b63a3" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-105f06c5-ca79-4b61-ae49-db02f70793f9" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-30413959-41f4-4b07-b5b2-3116dbafcd76" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-03f41612-7b2c-4e6b-baeb-de8b46dcf28b" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="ac3a6e0fb1b94726aa531d7e096daa13" cid="REL024" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="05/24/2021 16:38:15" from="di2ebac6c7e0074b6ab156b50eb39259fe9640" to="di8103fbb8b7e84fa8b9140538d2c2d2529597" visibility="package">
             <relation from="di2ebac6c7e0074b6ab156b50eb39259fe9640" to="di8103fbb8b7e84fa8b9140538d2c2d2529597" derived="false">
-              <start-role id="umlar-03916ae2-dac3-4756-a484-32107e0fe0a8" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-14df5b57-6700-4b81-93da-f1f521c85e60" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-1d4db4b0-7f64-4108-ba92-5243583f2621" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-1882e081-9af3-481f-8f6d-199b842692f2" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="die6ccc0e3167649808e3c8034b9f03ffe2405" cid="REL025" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="05/24/2021 16:38:15" to="did78eb01af87d4d1aaa60c6226731e9b77132" visibility="package">
             <relation from="" to="did78eb01af87d4d1aaa60c6226731e9b77132" derived="false">
-              <start-role id="umlar-fbbb13e4-457d-4575-a9c1-0974ed14319a" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-42119621-8c09-4f77-809d-1443fee9604d" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-5c4627be-7e68-4eff-9130-621e405b1789" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-e76caede-393d-4116-b5e0-cbce6affadb2" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="di7a6590e7f7dc4fd297fe4674cdd8b4af2005" cid="REL026" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="05/24/2021 16:38:15" to="dib7a6a74b3b0f4b47aa3f5c9932b6994c8054" visibility="package">
             <relation from="" to="dib7a6a74b3b0f4b47aa3f5c9932b6994c8054" derived="false">
-              <start-role id="umlar-2037b56b-abc0-4796-8205-e9b427bfb7da" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-8a2d9a7a-55bf-4931-aaf1-96dc4da16d4b" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-c8c2d213-c857-4036-94a0-725e50bf41f8" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-816b9b61-d886-41cd-bec5-c1ae87054a4a" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="die4a1ec578dbf4039b5513c75663a0b428600" cid="REL027" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="05/24/2021 16:38:15" from="di2ebac6c7e0074b6ab156b50eb39259fe9640" to="f00600cc17b94d7d9ad09e1d36a9ebaa" visibility="package">
             <relation from="di2ebac6c7e0074b6ab156b50eb39259fe9640" to="f00600cc17b94d7d9ad09e1d36a9ebaa" derived="false">
-              <start-role id="umlar-08e7d20c-6517-45da-b397-635dfb951bd5" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-8ca4d1de-62fa-4e84-a7c4-0105d6737352" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-ea56eaec-87f5-4269-861d-470f271d499f" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-55664b02-ae0b-44b8-a5a9-c28a5a3361a4" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="d706c6bcd8ff4d33914ce1843a8240d1" cid="REL028" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="05/24/2021 16:39:52" from="09a7c15a1bcd4bf5ba19831678eed17c" to="8c77a22d0e9b4f95964717625833710c" visibility="package">
             <relation from="09a7c15a1bcd4bf5ba19831678eed17c" to="8c77a22d0e9b4f95964717625833710c" derived="false">
-              <start-role id="umlar-cfbcf8b5-ef1f-4815-8c50-daeecb04d5e1" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-0721357c-b277-418b-8f5e-6c7e18f9c6c0" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-92ad835c-a4d5-4391-bbda-43368067d4eb" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-5a295885-70df-473a-840d-4f039ca338c0" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="die8208a889e3b4f95bf31c557b3946dbc7636" cid="REL029" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="05/24/2021 16:39:52" to="dibd5fab06af8e4ae09cd44ea8164884bf5977" visibility="package">
             <relation from="" to="dibd5fab06af8e4ae09cd44ea8164884bf5977" derived="false">
-              <start-role id="umlar-a092ddb7-c149-47e7-8378-f34743f80c6d" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-a068d019-478d-40db-8ed3-971596d73a07" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-9d0a666e-49d8-4fb3-b758-5e280d8acc25" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-cfc7937d-a7d6-417b-b42d-24027e727b56" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="dia28b79f202d542e7822e7f90b5be05ce7518" cid="REL030" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="05/24/2021 16:39:52" to="di10963e42d11f4dbeb2bcc032ad732f255802" visibility="package">
             <relation from="" to="di10963e42d11f4dbeb2bcc032ad732f255802" derived="false">
-              <start-role id="umlar-dd3343b5-2fae-4dfc-9a14-a706cc31eded" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-1ed053bf-731e-4ae6-9e93-f1395429155e" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-1fb12cc7-f918-4b00-a35f-957fa871e48a" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-13a9f9ec-8e4a-4953-8c84-614ded875aaa" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="di09e82011a4d44110881e040f99ce15233603" cid="REL031" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="05/24/2021 16:39:52" to="di5afdeca60ddc41ef85476129bc6013786550" visibility="package">
             <relation from="" to="di5afdeca60ddc41ef85476129bc6013786550" derived="false">
-              <start-role id="umlar-b8806d0b-b29a-44d4-b7e4-c1c1e5614f33" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-91398092-d8a8-4a87-95aa-949e2b051c50" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-e82c4fc8-8b4c-46c6-a3b6-f796f275a152" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-d978fd4c-2ca7-4993-a2e3-52453ea95d84" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="0027faeac4ac4c6cbe957f33cb74230c" cid="CMT007" type="comment" name="" style-class="" change-tracking-state="added" creation-date="05/25/2021 14:43:13">
@@ -2968,6 +2997,7 @@ pizza.box();</comment>
               <owned-item ref="b7ed91a7c655450185e87eb496581ef8" />
               <owned-item ref="b7ed91a7c655450185e87eb496581ef8" />
               <owned-item ref="b7ed91a7c655450185e87eb496581ef8" />
+              <owned-item ref="b7ed91a7c655450185e87eb496581ef8" />
             </owned-items>
             <attributes>
               <attribute id="a44b9374a845e49cd8aae837c5ce6c634709" cid="ELEM045" name="uniqueInstance" creation-date="05/26/2021 14:46:10" property-ref="b7ed91a7c655450185e87eb496581ef8" />
@@ -2991,7 +3021,7 @@ pizza.box();</comment>
           </item>
         </layer>
       </diagram>
-      <diagram type="uml-class" id="p13ac3582e9764855b28afe6504982530_782982173" name="simple-command" order-index="9" overview-order-index="7" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-100">
+      <diagram type="uml-class" id="p13ac3582e9764855b28afe6504982530_782982173" name="simple-command" order-index="9" overview-order-index="7" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -3023,6 +3053,7 @@ pizza.box();</comment>
             <owned-items>
               <owned-item ref="e6157671b7e94866a3e9f756a0328439" />
               <owned-item ref="e6157671b7e94866a3e9f756a0328439" />
+              <owned-item ref="e6157671b7e94866a3e9f756a0328439" />
             </owned-items>
             <attributes>
               <attribute id="ab11c2c5df3ef4e5b99593d2c3e6c437c969" cid="ELEM053" name="light" creation-date="06/09/2021 14:57:40" property-ref="e6157671b7e94866a3e9f756a0328439" />
@@ -3043,12 +3074,13 @@ pizza.box();</comment>
           </item>
           <item id="a6ab3f19075041a5b972c8a7006328b4" cid="REL032" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="06/09/2021 14:59:13" from="b16d5b96697e4a03ad9d7a4eb921f629" to="58857cc972e44b4d95464926dd29d7b6" visibility="package">
             <relation from="b16d5b96697e4a03ad9d7a4eb921f629" to="58857cc972e44b4d95464926dd29d7b6" derived="false">
-              <start-role id="umlar-bd9a7558-f661-4ea4-a283-d2a509400a3d" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-9ab688bc-b3c9-408c-ade3-45682978f7c9" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-7c94019d-f2fa-410c-bddd-e5439f033aa5" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-978eac5c-a547-4cf7-9838-b5e51f754641" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="22c934edc40d4a5f83582720c7ebda47" cid="C068" type="class" name="SimpleRemoteControl" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:01:14" visibility="undefined">
             <owned-items>
+              <owned-item ref="a211157db77f4c499b1b6cd5c5372487" />
               <owned-item ref="a211157db77f4c499b1b6cd5c5372487" />
               <owned-item ref="a211157db77f4c499b1b6cd5c5372487" />
             </owned-items>
@@ -3069,8 +3101,8 @@ pizza.box();</comment>
           </item>
           <item id="53c2a96d94734b78a4e95409f7fbbfce" cid="REL033" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:04:00" from="22c934edc40d4a5f83582720c7ebda47" to="f787ab1b7b804eb9b6ce1b38b95f0095" visibility="package">
             <relation from="22c934edc40d4a5f83582720c7ebda47" to="f787ab1b7b804eb9b6ce1b38b95f0095" derived="false">
-              <start-role id="umlar-bcc0856e-a26f-4bc6-9cbc-b48d8381d409" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-56f08ab5-3d1b-456a-81ba-d07db6ca72ff" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-456e495c-2fc1-4254-bafb-67fb9bba8f81" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-a796ed2f-8c90-4b57-95a1-d9d9bab86a9d" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="c6a165b044494c8d863f7a6ae4e49e04" cid="ELEM056" type="formatted-text" name="FormattedText2" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:47:09">
@@ -3168,14 +3200,14 @@ pizza.box();</comment>
           <item id="c52994774e5e4944af5c2f669d203639" cid="C069" type="class" name="Client" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:54:06" visibility="undefined" />
           <item id="24c90b11c41e4b2f962a0a6c6e629cd7" cid="REL034" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:54:34" from="c52994774e5e4944af5c2f669d203639" to="58857cc972e44b4d95464926dd29d7b6" visibility="package">
             <relation from="c52994774e5e4944af5c2f669d203639" to="58857cc972e44b4d95464926dd29d7b6" derived="false">
-              <start-role id="umlar-06f19c35-596a-486e-9dba-b185bacd717b" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-d7393362-a361-464e-b32e-2864b2235fa1" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-a4995204-8ee9-402e-b8d4-b9be6fb1c8ec" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-81b44440-c5c5-4748-830d-2f97bf59a30e" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="c05320251c914651b0a4939fbd43e5ff" cid="REL035" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:54:50" from="c52994774e5e4944af5c2f669d203639" to="b16d5b96697e4a03ad9d7a4eb921f629" visibility="package">
             <relation from="c52994774e5e4944af5c2f669d203639" to="b16d5b96697e4a03ad9d7a4eb921f629" derived="false">
-              <start-role id="umlar-1c25a41d-f422-4f72-87b7-243d6472c90f" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-db560edc-9712-4643-81e9-37305fad60d5" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-31ec7ed5-a43e-4188-958d-856269eb1a13" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-e16fa528-ea2d-4d36-98f4-cd8a39122e8b" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="died28b2eff2494f8eb868cfe053bea52d6856" cid="ELEM059" type="text" name="Text3" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:47:19">
@@ -3313,7 +3345,7 @@ pizza.box();</comment>
           </item>
         </layer>
       </diagram>
-      <diagram type="uml-class" id="pe5c2bea3381e4d009be5a68984f297be_346557349" name="command" order-index="10" overview-order-index="8" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="0,-100">
+      <diagram type="uml-class" id="pe5c2bea3381e4d009be5a68984f297be_346557349" name="command" order-index="10" overview-order-index="8" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -3350,6 +3382,9 @@ pizza.box();</comment>
             </operations>
           </item>
           <item id="di76fc9fc258644090a6d7ab2b5a2a6b6d2667" cid="ELEM063" type="uml-interface-classifier" name="LightOnCommand" style-class="" change-tracking-state="added" creation-date="06/09/2021 14:57:31" visibility="undefined">
+            <owned-items>
+              <owned-item ref="di09ea911e91834715856f5bd300185e9a5896" />
+            </owned-items>
             <attributes>
               <attribute id="ab11c2c5df3ef4e5b99593d2c3e6c437c969" cid="ELEM068" name="light" creation-date="06/09/2021 14:57:40" property-ref="di09ea911e91834715856f5bd300185e9a5896" />
             </attributes>
@@ -3395,13 +3430,15 @@ pizza.box();</comment>
             </source-codes>
           </item>
           <item id="dia4ee9f8ba94144718d60380d0a26594e5896" cid="REL036" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="06/09/2021 14:59:13" from="di76fc9fc258644090a6d7ab2b5a2a6b6d2667" to="di2538b2b9b9c1446a8df53c734a51aed92667" visibility="package">
-            <relation from="b16d5b96697e4a03ad9d7a4eb921f629" to="58857cc972e44b4d95464926dd29d7b6" derived="false">
-              <start-role id="umlar-bd9a7558-f661-4ea4-a283-d2a509400a3d" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-9ab688bc-b3c9-408c-ade3-45682978f7c9" name="" navigability="yes" association-type="association" visibility="private" />
+            <relation from="di76fc9fc258644090a6d7ab2b5a2a6b6d2667" to="di2538b2b9b9c1446a8df53c734a51aed92667" derived="false">
+              <start-role id="umlar-e1f6014c-053e-4eea-be76-c5e6369ea725" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-dbed557b-6232-4577-bd62-119c475d4640" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="dib190adccdf724459bb6ae6ab71ad35815896" cid="C072" type="class" name="RemoteControl" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:01:14" visibility="undefined">
             <owned-items>
+              <owned-item ref="b6ea01df3a634800835b777bdccc8d3b" />
+              <owned-item ref="di1da3e3abf1d94fe3b4a8cb91062c97a95896" />
               <owned-item ref="b6ea01df3a634800835b777bdccc8d3b" />
             </owned-items>
             <attributes>
@@ -3419,7 +3456,16 @@ pizza.box();</comment>
                   <source-code language="ActionScript" />
                 </source-codes>
               </operation>
-              <operation id="oc2385a1a8fd244bebedcefc634b04119736" cid="ELEM071" name="buttonWasPressed" creation-date="06/09/2021 15:03:01" type="void" type-id="void" visibility="undefined" />
+              <operation id="o14dc72c237934e308b603a10c247e96b975" cid="ELEM074" name="onButtonWasPressed" creation-date="06/10/2021 17:14:58" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="pf22fe2089cbf4da284a6317d7950ea29" name="slot" type="int" type-id="int" />
+                </parameters>
+              </operation>
+              <operation id="ob6d9b43888e44053bb94bf81305a4a48981" cid="ELEM075" name="offButtonWasPressed" creation-date="06/10/2021 17:14:58" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="p602a811feaf646c5ad3cfa18535b1a3f" name="slot" type="int" type-id="int" />
+                </parameters>
+              </operation>
             </operations>
             <source-codes>
               <source-code language="ActionScript" />
@@ -3449,7 +3495,11 @@ pizza.box();</comment>
                 </definition>
                 <content>
                   <paragraph>
-                    <style />
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
                     <p>
                       <t>
 </t>
@@ -3460,9 +3510,9 @@ pizza.box();</comment>
             </formatted-text>
           </item>
           <item id="di43a2cc0b54af404c872a0aa06a1f8cbc5896" cid="REL037" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:04:00" from="dib190adccdf724459bb6ae6ab71ad35815896" to="dib5df5dae648e4af7990cc05810f375192667" visibility="package">
-            <relation from="22c934edc40d4a5f83582720c7ebda47" to="f787ab1b7b804eb9b6ce1b38b95f0095" derived="false">
-              <start-role id="umlar-bcc0856e-a26f-4bc6-9cbc-b48d8381d409" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-56f08ab5-3d1b-456a-81ba-d07db6ca72ff" name="" navigability="yes" association-type="association" visibility="private" />
+            <relation from="dib190adccdf724459bb6ae6ab71ad35815896" to="dib5df5dae648e4af7990cc05810f375192667" derived="false">
+              <start-role id="umlar-b9178671-4956-4b6a-ba01-b587cb3cdbdf" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-7b3501cf-f3ee-45aa-97d7-ceba1ba094c1" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="di054d163538284bf2874d0a95dc6de0d55896" cid="ELEM064" type="text" name="Text3" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:47:19">
@@ -3520,16 +3570,16 @@ pizza.box();</comment>
             </drawing-text>
           </item>
           <item id="di0d631837553b42a8ad23b02594d4ad7d5896" cid="C073" type="class" name="Client" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:54:06" visibility="undefined" />
-          <item id="dic883089295f342fbb24e38a006ff6aa45896" cid="REL038" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:54:34" from="di0d631837553b42a8ad23b02594d4ad7d5896" to="di2538b2b9b9c1446a8df53c734a51aed92667" visibility="package">
+          <item id="dic883089295f342fbb24e38a006ff6aa45896" cid="REL038" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:54:34" from="c52994774e5e4944af5c2f669d203639" to="58857cc972e44b4d95464926dd29d7b6" visibility="package">
             <relation from="c52994774e5e4944af5c2f669d203639" to="58857cc972e44b4d95464926dd29d7b6" derived="false">
-              <start-role id="umlar-06f19c35-596a-486e-9dba-b185bacd717b" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-d7393362-a361-464e-b32e-2864b2235fa1" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-057f6426-f231-4fee-8b37-6808c243855f" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-53509989-1dc6-4e12-9033-e1b3fd20f8e0" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
-          <item id="di7f32062f7db543569c2c5e7bcec8d2f25896" cid="REL039" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:54:50" from="di0d631837553b42a8ad23b02594d4ad7d5896" to="di76fc9fc258644090a6d7ab2b5a2a6b6d2667" visibility="package">
+          <item id="di7f32062f7db543569c2c5e7bcec8d2f25896" cid="REL039" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:54:50" from="c52994774e5e4944af5c2f669d203639" to="b16d5b96697e4a03ad9d7a4eb921f629" visibility="package">
             <relation from="c52994774e5e4944af5c2f669d203639" to="b16d5b96697e4a03ad9d7a4eb921f629" derived="false">
-              <start-role id="umlar-1c25a41d-f422-4f72-87b7-243d6472c90f" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-db560edc-9712-4643-81e9-37305fad60d5" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-e3a9a941-5455-4897-a7cb-191a391f88e5" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-79fbe8c4-c6b2-495a-8fb7-266fa080c374" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="di4322c54d607b4e3584fd35665f7d53d45896" cid="ELEM066" type="text" name="Text3" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:47:19">
@@ -3609,17 +3659,17 @@ pizza.box();</comment>
           </item>
           <item id="8f9cad90b0324e17b36cb4159393082c" cid="REL041" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="06/10/2021 16:27:26" from="8fc8957242814d18a1651248af8552ff" to="di2538b2b9b9c1446a8df53c734a51aed92667" visibility="package">
             <relation from="8fc8957242814d18a1651248af8552ff" to="di2538b2b9b9c1446a8df53c734a51aed92667" derived="false">
-              <start-role id="umlar-545660c6-c2cd-485d-ac48-01a7ac838009" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-3251ffda-a0e4-4feb-b45c-e1eb8c6d6bcc" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-8f877516-fa78-4f9e-83db-11968d6d6043" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-702ab144-0621-4b56-8b4a-3b168df48eaf" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="dia2c7b81f2ce64a0199ed1c9165b4cb2e8852" cid="REL042" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="06/09/2021 15:54:50" from="di0d631837553b42a8ad23b02594d4ad7d5896" to="8fc8957242814d18a1651248af8552ff" visibility="package">
             <relation from="di0d631837553b42a8ad23b02594d4ad7d5896" to="8fc8957242814d18a1651248af8552ff" derived="false">
-              <start-role id="umlar-1c25a41d-f422-4f72-87b7-243d6472c90f" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-db560edc-9712-4643-81e9-37305fad60d5" name="" navigability="yes" association-type="association" visibility="private" />
+              <start-role id="umlar-2330c3eb-a083-4839-ba0f-f87dce246d85" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-5b0ef285-e597-4733-b85b-bcf57fe0b42f" name="" navigability="yes" association-type="association" visibility="private" />
             </relation>
           </item>
-          <item id="055a9075de2842e0bbe83ae0ac149f8d" cid="C074" type="class" name="RemoteLoader" style-class="" change-tracking-state="added" creation-date="06/10/2021 17:12:10" />
+          <item id="055a9075de2842e0bbe83ae0ac149f8d" cid="C074" type="class" name="RemoteLoader" style-class="" change-tracking-state="added" creation-date="06/10/2021 17:12:10" visibility="undefined" />
           <item id="4dbf3687b0e643e2a61d60f786707192" cid="DEP002" type="dependency" name="" style-class="" change-tracking-state="added" creation-date="06/10/2021 17:12:39" from="055a9075de2842e0bbe83ae0ac149f8d" to="fb4625b8bc06484e978eea2848e2dc72" visibility="package" />
           <item id="di79c3d0370e994e1494bbf0c0d63ee7691553" cid="DEP003" type="dependency" name="" style-class="" change-tracking-state="added" creation-date="06/10/2021 17:12:39" from="055a9075de2842e0bbe83ae0ac149f8d" to="8fc8957242814d18a1651248af8552ff" visibility="package" />
         </abstract-items>
@@ -3701,11 +3751,187 @@ pizza.box();</comment>
             <layout line-style="perpendicular" start-auto-side="false" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="940" y1="364" x2="467" y2="432" start-border-pos="0.625" end-border-pos="0.625" start-local-pos="70" end-local-pos="70" name-position="0,20">
               <points>
                 <point x="940" y="364" />
-                <point x="853" y="450" />
+                <point x="853" y="463" />
                 <point x="467" y="432" />
               </points>
             </layout>
             <relation from="055a9075de2842e0bbe83ae0ac149f8d" from-iid="3cebe9f68b3c40f78e4b90a36d755d60" to="8fc8957242814d18a1651248af8552ff" to-iid="8da8847b3e2349968ca0121860d40f1a" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="pfd12f0d209114911a3cd275a7730769e_447140852" name="adapter-pattern" order-index="11" overview-order-index="9" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>06/13/2021 15:11:25</creation-date>
+          <change-date>06/13/2021 15:17:42</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="271558ad7f5b49c2a8a57b38ebd9b630" cid="ELEM072" type="uml-interface-classifier" name="Duck" style-class="" change-tracking-state="added" creation-date="06/13/2021 15:11:37" visibility="undefined">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="271558ad7f5b49c2a8a57b38ebd9b630_interface_c" type="interface" ref="" />
+            </stereotype-instances>
+            <operations>
+              <operation id="of8a3e5e1530b4158b57a77f58b9f6b96876" cid="ELEM076" name="quack" creation-date="06/13/2021 15:12:08" type="" type-id="" visibility="undefined" />
+              <operation id="oa273c93fc76f48b385e977cb65fafc8b878" cid="ELEM077" name="fly" creation-date="06/13/2021 15:12:08" type="" type-id="" visibility="undefined" />
+            </operations>
+          </item>
+          <item id="di824031d7311544bbb766d02f11ae94941859" cid="ELEM075" type="uml-interface-classifier" name="Turkey" style-class="" change-tracking-state="added" creation-date="06/13/2021 15:11:37" visibility="undefined">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="271558ad7f5b49c2a8a57b38ebd9b630_interface_c" type="interface" ref="" />
+            </stereotype-instances>
+            <operations>
+              <operation id="of8a3e5e1530b4158b57a77f58b9f6b96876" cid="ELEM076" name="gobble" creation-date="06/13/2021 15:12:08" type="" type-id="" visibility="undefined" />
+              <operation id="oa273c93fc76f48b385e977cb65fafc8b878" cid="ELEM077" name="fly" creation-date="06/13/2021 15:12:08" type="" type-id="" visibility="undefined" />
+            </operations>
+          </item>
+          <item id="8b388849832f4031b09057005556362a" cid="ELEM076" type="class" name="MallardDuck" style-class="" change-tracking-state="added" creation-date="06/13/2021 15:12:58" visibility="undefined">
+            <operations>
+              <operation id="o1a03bb531575429498583978548b2703944" cid="ELEM078" name="quack" creation-date="06/13/2021 15:14:11" type="" type-id="" visibility="undefined" />
+              <operation id="o94608f15db8e4278a4d21150f7d5165c944" cid="ELEM079" name="fly" creation-date="06/13/2021 15:14:11" type="" type-id="" visibility="undefined" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="a21436a1a4654abfa3ecbeb9b28cb8db" cid="REA043" type="realization" name="" style-class="" change-tracking-state="added" creation-date="06/13/2021 15:12:58" from="8b388849832f4031b09057005556362a" to="271558ad7f5b49c2a8a57b38ebd9b630" visibility="package" />
+          <item id="8b3cc0b6d8a34992b10e42c5ae64832a" cid="ELEM077" type="class" name="TurkeyAdapter" style-class="" change-tracking-state="added" creation-date="06/13/2021 15:14:28" visibility="undefined">
+            <owned-items>
+              <owned-item ref="25864f47e3394a30a79f3339ea535341" />
+            </owned-items>
+            <attributes>
+              <attribute id="a2492f825422d4eb7a674d35661f79b9e14" cid="ELEM078" name="turkey" creation-date="06/13/2021 15:14:45" property-ref="25864f47e3394a30a79f3339ea535341" />
+            </attributes>
+            <operations>
+              <operation id="oeb73be44ed5c40379247a53bdb82b063197" cid="ELEM081" name="quack" creation-date="06/13/2021 15:15:37" type="" type-id="" visibility="undefined" />
+              <operation id="o3bd956f4109047ee992cf24c83b39eef197" cid="ELEM082" name="fly" creation-date="06/13/2021 15:15:37" type="" type-id="" visibility="undefined" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="c48548a541b14b659ece5a2ea56a21c1" cid="REA044" type="realization" name="" style-class="" change-tracking-state="added" creation-date="06/13/2021 15:14:28" from="8b3cc0b6d8a34992b10e42c5ae64832a" to="271558ad7f5b49c2a8a57b38ebd9b630" visibility="package" />
+          <item id="e66e605acd00490f843368f4a06c99a4" cid="REL044" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="06/13/2021 15:15:45" from="8b3cc0b6d8a34992b10e42c5ae64832a" to="di824031d7311544bbb766d02f11ae94941859" visibility="package">
+            <relation from="8b3cc0b6d8a34992b10e42c5ae64832a" to="di824031d7311544bbb766d02f11ae94941859" derived="false">
+              <start-role id="umlar-b2578d33-9b81-48be-93c5-479b290bdde8" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-2140106c-1a28-4096-8ee3-8e4e83bade0d" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="5fe50714c91d4e958958d344bf1e8eaf" cid="ELEM079" type="class" name="WildTurkey" style-class="" change-tracking-state="added" creation-date="06/13/2021 15:16:10" visibility="undefined">
+            <owned-items>
+              <owned-item ref="1597622c1212404cabf90dfa9282e914" />
+            </owned-items>
+            <operations>
+              <operation id="ob9a31f87cbb24c37989bc866d8b39852972" cid="ELEM083" name="gobble" creation-date="06/13/2021 15:16:57" type="" type-id="" visibility="undefined" />
+              <operation id="oae7925c41d584de8988716f2b5b428ca972" cid="ELEM084" name="fly" creation-date="06/13/2021 15:16:57" type="" type-id="" visibility="undefined" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="38f44cea6ac746c499ee30ef7248e6f0" cid="REA045" type="realization" name="" style-class="" change-tracking-state="added" creation-date="06/13/2021 15:16:10" from="5fe50714c91d4e958958d344bf1e8eaf" to="di824031d7311544bbb766d02f11ae94941859" visibility="package" />
+          <item id="0f966f53b4854d09b111e86f1ba60bcf" cid="ELEM081" type="text" name="Text4" style-class="" change-tracking-state="added" creation-date="06/13/2021 15:17:42">
+            <style style-name="Transparent" shadow-type="smooth" shadow-offset="2,2" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;22;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;18;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Segoe UI;18;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Segoe UI;18;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Segoe UI;18;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="solid" colors="#00FFFFFF,#00FFFFFF" />
+              <border color="#FF000000" width="0" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" colors="#7E1E90FF,#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <drawing-text>
+              <text>Adapter</text>
+            </drawing-text>
+          </item>
+        </abstract-items>
+        <layer id="994ae5d0922647559974ff864c44f3c8" name="Default" visible="true" enabled="true" locked="false">
+          <item id="271558ad7f5b49c2a8a57b38ebd9b630" iid="e32071268a1040e3ad26fe7182f7963c" creation-date="06/13/2021 15:11:37" order-index="0" type="entity">
+            <layout ax="257" ay="55" awidth="140" aheight="109" x="257" y="55" width="140" height="109" rotation-center="0,25.5" />
+            <class />
+          </item>
+          <item id="di824031d7311544bbb766d02f11ae94941859" iid="2e3b6ec4fc0245629013d352a00756c2" creation-date="06/13/2021 15:11:37" order-index="0" type="entity">
+            <layout ax="655" ay="55" awidth="140" aheight="109" x="655" y="55" width="140" height="109" rotation-center="0,25.5" />
+            <class />
+          </item>
+          <item id="8b388849832f4031b09057005556362a" iid="82e5ecbae45b4d43b095035ab4c27de0" creation-date="06/13/2021 15:12:58" order-index="1" type="entity">
+            <layout ax="257" ay="260" awidth="140" aheight="83" x="257" y="260" width="140" height="83" rotation-center="0,13" />
+            <class />
+          </item>
+          <item id="a21436a1a4654abfa3ecbeb9b28cb8db" iid="888b89bf6b2a4a0da73382b6ca19d87b" creation-date="06/13/2021 15:12:58" order-index="2" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="327" y1="260" x2="327" y2="164" start-border-pos="0.125" end-border-pos="0.625" name-position="0,20">
+              <points>
+                <point x="327" y="260" />
+                <point x="327" y="164" />
+              </points>
+            </layout>
+            <relation from="8b388849832f4031b09057005556362a" from-iid="82e5ecbae45b4d43b095035ab4c27de0" to="271558ad7f5b49c2a8a57b38ebd9b630" to-iid="e32071268a1040e3ad26fe7182f7963c" />
+          </item>
+          <item id="8b3cc0b6d8a34992b10e42c5ae64832a" iid="4cc13585216e4cceaba5614a34bc6a36" creation-date="06/13/2021 15:14:28" order-index="3" type="entity">
+            <layout ax="454" ay="234" awidth="140" aheight="109" x="454" y="234" width="140" height="160" />
+            <class />
+          </item>
+          <item id="c48548a541b14b659ece5a2ea56a21c1" iid="10171ea257104581a3d6bbd1834a3a49" creation-date="06/13/2021 15:14:28" order-index="4" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="464" y1="234" x2="387" y2="164" start-border-pos="0.0182785034179688" end-border-pos="0.518278503417969" name-position="0,20">
+              <points>
+                <point x="464" y="234" />
+                <point x="387" y="164" />
+              </points>
+            </layout>
+            <relation from="8b3cc0b6d8a34992b10e42c5ae64832a" from-iid="4cc13585216e4cceaba5614a34bc6a36" to="271558ad7f5b49c2a8a57b38ebd9b630" to-iid="e32071268a1040e3ad26fe7182f7963c" />
+          </item>
+          <item id="e66e605acd00490f843368f4a06c99a4" iid="6a5f7c1d99f245caaf589ed39a8b7503" creation-date="06/13/2021 15:15:45" order-index="5" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="585" y1="234" x2="664" y2="164" start-border-pos="0.233888462611607" end-border-pos="0.733888462611607" name-position="0,20">
+              <points>
+                <point x="585" y="234" />
+                <point x="664" y="164" />
+              </points>
+            </layout>
+            <relation from="8b3cc0b6d8a34992b10e42c5ae64832a" from-iid="4cc13585216e4cceaba5614a34bc6a36" to="di824031d7311544bbb766d02f11ae94941859" to-iid="2e3b6ec4fc0245629013d352a00756c2" />
+          </item>
+          <item id="5fe50714c91d4e958958d344bf1e8eaf" iid="d8cb68e3b72848f59ac3e558c83134ce" creation-date="06/13/2021 15:16:10" order-index="6" type="entity">
+            <layout ax="655" ay="260" awidth="140" aheight="83" x="655" y="260" width="140" height="83" rotation-center="0,13" />
+            <class />
+          </item>
+          <item id="38f44cea6ac746c499ee30ef7248e6f0" iid="1618b7347b6d40789be5fa67bdf8e570" creation-date="06/13/2021 15:16:10" order-index="7" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="725" y1="260" x2="725" y2="164" start-border-pos="0.125" end-border-pos="0.625" name-position="0,20">
+              <points>
+                <point x="725" y="260" />
+                <point x="725" y="164" />
+              </points>
+            </layout>
+            <relation from="5fe50714c91d4e958958d344bf1e8eaf" from-iid="d8cb68e3b72848f59ac3e558c83134ce" to="di824031d7311544bbb766d02f11ae94941859" to-iid="2e3b6ec4fc0245629013d352a00756c2" />
+          </item>
+          <item id="0f966f53b4854d09b111e86f1ba60bcf" iid="edf6263146e44b709ddb66b4d50b2c1e" creation-date="06/13/2021 15:17:42" order-index="8" type="drawing-text">
+            <layout ax="454" ay="176" awidth="140" aheight="58" x="454" y="176" width="140" height="58" rotation-center="55,23.25" />
           </item>
         </layer>
       </diagram>
