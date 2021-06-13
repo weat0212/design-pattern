@@ -31,3 +31,7 @@
 ## Command Pattern
 
 ![GITHUB](https://github.com/weat0212/design-pattern/blob/main/resources/images/Command.png)
+
+## Adapter Pattern
+
+![GITHUB](https://github.com/weat0212/design-pattern/blob/main/resources/images/Adapter-pattern.png)
