@@ -40,3 +40,7 @@
 
 ![GITHUB](https://github.com/weat0212/design-pattern/blob/main/resources/images/Facade-pattern.png)
 
+## Template Method Pattern
+
+![GITHUB](https://github.com/weat0212/design-pattern/blob/main/resources/images/Template-method.png)
+
