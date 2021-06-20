@@ -48,5 +48,6 @@
 ## Iterator Pattern
 
 ![GITHUB](https://github.com/weat0212/design-pattern/blob/main/resources/images/Iterator-pattern.png)
+![GITHUB](https://github.com/weat0212/design-pattern/blob/main/resources/images/Iterator-pattern2.png)
 
 
