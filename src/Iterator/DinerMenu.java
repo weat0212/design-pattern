@@ -34,6 +34,6 @@ public class DinerMenu implements Menu {
 
     @Override
     public Iterator createIterator() {
-        return Arrays.stream(menuItems).iterator();
+        return new DinerMenuIterator(menuItems);
     }
 }

@@ -5,7 +5,7 @@ import java.util.Iterator;
 public class DinerMenuIterator implements Iterator {
 
     MenuItem[] items;
-    private int position = 0;
+    int position = 0;
 
     public DinerMenuIterator(MenuItem[] items) {
         this.items = items;
